@@ -1,0 +1,62 @@
+@import "../../scss/variables";
+
+@mixin layoutPadding{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.create-issue-button{
+    background-color: $background-color-green;
+    color: $color-white;
+}
+
+.issues-header-container{
+    @include layoutPadding;
+    background-color: $background-color-grey;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.status-font{
+    font-weight: $font-weight-600;
+}
+
+.label-button{
+    width: 100%;
+    background-color: $background-color-white;
+    color: $color-black;
+}
+
+.border-radius-right{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.border-radius-left{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.outlet-pattern{
+    @include layoutPadding;
+}
+
+@media screen and (max-width:800px){
+    .outlet-pattern{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .issues-header-container{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .outlet-pattern{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .issues-header-container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}

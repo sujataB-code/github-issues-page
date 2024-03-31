@@ -1,0 +1,27 @@
+@import '../../../scss/variables';
+
+.create-new-issue-title{
+    font-weight: $font-weight-600 !important;
+    font-size: $font-size-20;
+}
+
+.create-issue-labels{
+     font-size: $font-size-18 !important;
+     color: $color-black !important;
+}
+
+.modal-width{
+    width: 400px;
+    padding:20px
+}
+
+@media screen and (max-width:600px){
+    .modal-width{
+        width: 170px;
+        padding: 10px;
+    }
+
+    .create-new-issue-title{
+        font-size: $font-size-12;
+    }
+}

@@ -1,0 +1,42 @@
+export const pages=[
+    {
+        id:1,
+        name:'Code',
+        target:'/code'
+    },
+    {
+        id:2,
+        name:'Issues',
+        target:'/'
+    },
+    {
+        id:3,
+        name:'Pull requests',
+        target:'/pullrequest'
+    },
+    {
+        id:4,
+        name:'Actions',
+        target:'/actions'
+    },
+    {
+        id:5,
+        name:'Projects',
+        target:'/project'
+    },
+    {
+        id:6,
+        name:'Wiki',
+        target:'/wiki'
+    },
+    {
+        id:7,
+        name:'Security',
+        target:'/security'
+    },
+    {
+        id:8,
+        name:'Insight',
+        target:'/insight'
+    },
+]

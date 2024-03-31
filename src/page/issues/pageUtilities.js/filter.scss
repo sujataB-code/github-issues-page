@@ -1,0 +1,14 @@
+.filter-position-relation {
+  position: relative;
+  cursor: pointer;
+}
+
+.filter-position-absolute {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  background-color: white;
+  z-index: 99;
+  border: 1px solid black;
+}
+
